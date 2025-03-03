@@ -35,7 +35,7 @@ public class MainApp {
             System.out.println();
         }
 
-        User foundUser = userService.findUserByCar("Toyota Corolla",1L);
+        User foundUser = userService.findUserByCar("Toyota Corolla", 1L);
         System.out.println("Владелец данного авто " + foundUser.getFirstName() + " " + foundUser.getLastName());
         System.out.println();
 
